@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo of Owl Carousel</title>
+   <link rel="stylesheet" href="/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <style>
+      .item {
+        border: 1px solid #ddd;
+        -height: 200px;
+        -background-color: aquamarine;
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .item img {
+        width: 100px !important;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      .owl-theme .owl-dots .owl-dot.active span {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+         <img src="https://i.pinimg.com/736x/90/40/03/9040034f5d635f46a4fb92128964fcca.jpg" alt="">
+         
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo
+            reiciendis perferendis laudantium voluptatibus iure.
+          </p>
+          <button class="btn btn-primary">View More</button>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/736x/90/40/03/9040034f5d635f46a4fb92128964fcca.jpg" alt="">
+          
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo
+            reiciendis perferendis laudantium voluptatibus iure.
+          </p>
+          <button class="btn btn-primary">View More</button>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/736x/90/40/03/9040034f5d635f46a4fb92128964fcca.jpg" alt="">
+        
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo
+            reiciendis perferendis laudantium voluptatibus iure.
+          </p>
+          <button class="btn btn-primary">View More</button>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/736x/90/40/03/9040034f5d635f46a4fb92128964fcca.jpg" alt="">
+         
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo
+            reiciendis perferendis laudantium voluptatibus iure.
+          </p>
+          <button class="btn btn-primary">View More</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        stagePadding: 100,
+        loop: true,
+        margin: 30,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayHoverPause: true,
+        center: true,
+        URLhashListener: true,
+        autoplayHoverPause: true,
+        startPosition: "URLHash",
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

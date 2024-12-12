@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of AOS Library</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/">
+
+    <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .fimg{
+            animation-delay: 1s;
+        }
+
+        .simg{
+            animation-delay: 1.5s;
+        }
+
+        .timg{
+            animation-delay: 5s;
+        }
+
+        .forthimg{
+            animation-delay: 2.5s;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="box py-4 bg-light">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                    <img src="images/" width="200" class="animate__animated animate__fadeInLeft mb-3 fimg" alt="">
+                    <img src="images/" width="200" class="animate__animated animate__fadeInLeft simg mb-3" alt="">
+                    <img src="images/" width="200" class="animate__animated animate__fadeInLeft mb-3 timg" alt="">
+                    <img src="images/" width="200" class="animate__animated animate__fadeInLeft forthimg mb-3" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+
+    <div class="container my-4">
+        <div class="row mb-4">
+            <div class="col-md-4" data-aos="fade-left">
+                <div class="card">
+                    <img src="images/adsw2.webp" alt="">
+                    <div class="card-body">
+                        <img src="image/n3.jpeg" alt="">
+                        <button class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-down">
+                <div class="card">
+                    <img src="images/adsw2.webp" alt="">
+                    <div class="card-body">
+                       <img src="image/n3.jpeg" alt="">
+                        <button class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-right">
+                <div class="card">
+                    <img src="images/adsw2.webp" alt="">
+                    <div class="card-body">
+                        <img src="image/n3.jpeg" alt="">
+                        <button class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-3"  data-aos="flip-left">
+                <div class="card">
+                    <img src="images/3.jpg" alt="">                    
+                </div>
+            </div>
+
+            <div class="col-md-3"  data-aos="flip-left">
+                <div class="card">
+                    <img src="images/3.jpg" alt="">                    
+                </div>
+            </div>
+
+            <div class="col-md-3"  data-aos="flip-left">
+                <div class="card">
+                    <img src="images/3.jpg" alt="">                    
+                </div>
+            </div>
+
+            <div class="col-md-3"  data-aos="flip-left">
+                <div class="card">
+                    <img src="images/3.jpg" alt="">                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>

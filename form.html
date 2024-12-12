@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        
+        body{
+            height: 100vh;
+        }
+
+        .login-box{            
+            width: 350px;
+        }
+
+    </style>
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center">
+
+    <div class="login-box m-auto shadow-sm rounded p-4 bg-white">
+        <form class="was-validated">
+
+            <img src="images/logo.png" class="d-block mx-auto mb-3" alt="">
+            <h4 class="text-center mb-3 text-secondary">Login here</h4>
+
+
+            <div class="mb-3">  
+                <input type="email" class="form-control" placeholder="Enter Email" required>
+                <div class="invalid-feedback">Enter Email</div>
+                <div class="valid-feedback">Valid</div>
+            </div>
+
+            <div class="input-group input-group-lg mb-3">                
+                <input type="text" class="form-control border-end-0" placeholder="Enter Username">
+                <span class="input-group-text bg-white"><i class="fa-regular fa-user"></i></span>
+            </div>
+
+            <div class="mb-3 form-floating">                
+                <input type="text" class="form-control" placeholder="">
+                <label>Username</label> 
+            </div>
+
+            <div class="mb-3 form-floating">                
+                <input type="password" class="form-control" placeholder="">
+                <label>Password</label>
+            </div>
+
+            <div class="mb-3 form-floating">
+                <select class="form-select">
+                    <option value="">kadi</option>
+                    <option value="">mehsana</option>
+                    <option value="">patan</option>
+                </select>
+                <label for="">Select City</label>
+            </div>
+
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="gender" value="male" class="form-check-input">
+                    <label class="form-check-label">Male</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="gender" value="female" class="form-check-input">
+                    <label class="form-check-label">Female</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">Reading</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">Playing</label>
+                </div>
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Active</label>
+            </div>
+
+            <button class="btn btn-primary w-100">Submit</button>
+
+        </form>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

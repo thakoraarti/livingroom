@@ -1,0 +1,468 @@
+.navbar{
+    -border: 1px solid red;
+    -background-color: #D4EDE7;
+}
+
+.zero {
+    border: none;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #C19A83;
+    position: absolute;
+    top: 6px;
+    right:11px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+    font-size: 11px;
+    color: #fff;
+  }
+
+  
+  .menu{
+    -border: 1px solid green;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+  } 
+
+  .menu1{
+    -border: 1px solid red;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .one{
+    -border: 1px solid red;
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+
+  .fa-basket-shopping{
+    color: #C19A83;
+    font-size: 20px;
+  }
+  
+  .navbar-main{
+    -border: 1px solid red;
+     height: 700px;
+     background-image: url(/image/hero-01.img);
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  .col-lg-2 {
+    -border: 1px solid yellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: black;
+    margin-left: 10px;
+
+  }
+
+  .col-lg-11{
+    -border: 1px solid red;
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .col-lg-10{
+    -border: 1px solid green;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 22px;
+    margin-left: 10px;
+  }
+
+  .btn{
+    -border: 1px solid red;
+    margin-top: 60px;
+    width: 15%;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    margin-left: -840px;
+  }
+
+  .btn:hover{
+    background-color: #C19A83;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  .text1{
+    -border: 1px solid gray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: black;
+    margin-left: 10px;
+
+    }
+
+.text2{
+    -border: 1px solid red;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+ }
+ .line{
+    border: 1px solid silver;
+    width: 45px;
+    margin-left: 550px;
+ }
+
+
+ .swiper {
+  -border: 1px solid red;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  border: 1px solid silver;
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.swiper-pagination{
+  -border: 1px solid red;
+  position: static !important;
+  padding-top: 20px;
+}
+
+
+.main-text{
+  background-color: #fff;
+  position: absolute;
+  left:20px;right: 20px;bottom: 20px;
+}
+.line_1{
+  border: 1px solid silver;
+  width: 45px;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.content{
+  -border: 1px solid green;
+  margin-top: 80px;
+  margin-left: 480px;
+  position: absolute;
+}
+.img-fluid{
+  -border: 1px solid red;
+}
+
+
+.container-fluid_two{
+  -border: 1px solid red;
+  margin-top: 300px;
+}
+
+.card-img-top{
+  border: 1px solid green;
+  width: fit-content;
+}
+.card-title{
+ -border: 1px solid yellow;
+ 
+}
+
+.card{
+  -border: 1px solid red;
+}
+
+.container-fluid_one{
+  -border: 1px solid black;
+  margin-top: 300px;
+  height: 650px;
+  display: flex;
+}
+.woach_1{
+  -border: 1px solid  green;
+  margin-top: 10px;
+}
+
+.PRODUCTS_1{
+  -border: 1px solid red;
+  background-color:#F1F3F2;
+}
+.card-text_1{
+  -border: 1PX solid RED;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 20PX;
+  text-align: center;
+}
+.card_ONE{
+  -border: 1px solid red;
+  text-align: center;
+  color: #5E5E5E;
+  font-weight: bold;
+}
+
+.rounded_1{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 150px;
+  position: relative;
+}
+.rounded_one{
+  -border: 1px solid red;
+}
+.rounded_two{
+  -border: 1px solid red;
+  color: #8F6453;
+}
+.rounded_three{
+  -border: 1px solid red;
+  color: #DABCA2;
+}
+
+.container-fluid_two{
+  -border: 1px solid red;
+  margin-top: -10px;
+  height: 650px;
+  display: flex; 
+}
+.m_img{
+  -border: 1px solid yellow;
+  object-fit: cover;
+}
+.main_one{
+  border: 1px solid yellow;
+  height: 750px;
+  
+}
+.m_one{
+  -border: 1px solid  blue;
+  height: 700px;
+  width: 800px;
+}
+.m_two{
+  border: 1px solid red;
+  height: 700px;
+  width: 50%;
+}
+.t_img{
+  -border: 1px solid red;
+  object-fit: cover;
+  margin-left: 150px;
+  top: 100px;
+  position: relative;
+}
+.name_1{
+  -border: 1px solid red;
+  width: fit-content;
+  font-size: 20px;
+  color: black;
+  -font-weight: bold;
+  margin-top: 100px;
+  margin-left: 170PX;
+  font-family: 'Oswald', sans-serif;
+}
+.name_2{
+  -border: 1px solid red;
+  margin-left: 80px;
+  margin-top: 20px;
+  color: #636363;
+  width: fit-content;
+}
+.btn_1{
+  border: 1px solid red;
+  margin-left: 95px;
+  height: 40px;
+  width: 140px;
+}
+.btn_11{
+  border: 1px solid yellow;
+  position: relative;
+  height: 30PX;
+}
+
+.b_img{
+  -border: 1px solid red;
+  -background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3  )) ;
+}
+
+.a_text{
+  -border: 1px solid red;
+  width: fit-content;
+  height: fit-content;
+  margin-top:240px;
+  margin-left: 340px;
+  font-size: 13px;
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+}
+.b_text{
+  -border: 1px solid red;
+  width: 70%;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.c_text {
+  -border: 1px solid green;
+  width: 70%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.c_img{
+  -border: 1px solid green;
+  height: 370px;
+  width: 210px;
+  margin-top: 150px;
+  background-size: cover;
+  background-image: url(/image/m_2.png);
+}
+
+.p_1{
+  -border: 1px solid green;
+  margin-top: 400px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+.p_2{
+  -border: 1px solid red;
+  text-align: center;
+  color: #636372;
+}
+.three_box{
+  -border: 1px solid red;
+  
+}
+
+.fa-star{
+  -border: 1px solid red;
+  margin-top: 130px;
+  color: #F0AD4E;
+}
+.f_1{
+  -border: 1px solid red;
+  margin-top: 50px;
+}
+.Oliver_1{
+  -border: 1px solid red;
+  margin-top: -140px;
+  color: #845E5E;
+  font-size: 12PX;
+  font-family: 'Oswald', sans-serif;
+}
+.Oliver_2{
+  -border: 1px solid red;
+  color: #845E5E;
+  font-size: 12PX;
+  font-family: 'Oswald', sans-serif;
+}
+.Oliver_3{
+  -border: 1px solid red;
+  margin-top: -140px;
+  color: #845E5E;
+  font-size: 12PX;
+  font-family: 'Oswald', sans-serif;
+}
+
+.fa-shipping-fast{
+  -border: 1px solid red;
+  font-size: 30px;
+  height: fit-content;
+  margin-left: 100px;
+  color: #C19A83;
+}
+
+.d_1{
+  -border: 1px solid red;
+  margin-top: 50px;
+  height: fit-content;
+  margin-left: -90px;
+  width: 60%;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.lorem_1{
+  -border: 1px solid red;
+  margin-top: 100px;
+  height: 75px;
+  width: 200px;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: -160px;
+}
+
+.fa-credit-card{
+  -border: 1px solid red;
+  height: fit-content;
+  font-size: 30px;
+  margin-left: 100px;
+  color: #C19A83;
+}
+
+.fa-shield-alt{
+  -border: 1px solid red;
+  height: fit-content;
+  font-size: 30px;
+  margin-left: 100px;
+  color: #C19A83;
+}
+
+.d_3{
+  -border: 1px solid red;
+  margin-top: 50px;
+  height: fit-content;
+  margin-left: -100px;
+  width: 100%;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.lorem_3{
+  -border: 1px solid red;
+  margin-top: 100px;
+  height: 90px;
+  width: 80%;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: -250px;
+}
+
+.fa-cart-arrow-down{
+  -border: 1px solid red;
+  height: fit-content;
+  font-size: 30px;
+  margin-left: 100px;
+  color: #C19A83;
+}
+.Email{
+  -border: 1px solid red;
+  height: 45px;
+  width: 270px;
+  margin-top: 10px;
+}

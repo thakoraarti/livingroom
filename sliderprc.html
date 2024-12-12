@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .carousel-inner {
+        -border: 1px solid red;
+        height: 450px;
+      }
+      .carousel-inner .carousel-item,
+      .carousel-inner .carousel-item img {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        -border: 1px solid red;
+      }
+
+      .main-slider .carousel-control-next {
+        border: 1px solid #fff;
+        width: 45px;
+        height: 45px;
+        top: 48%;
+        right: 50px;
+        border-radius: 50px;
+        opacity: 1;
+      }
+
+      .main-slider .carousel-control-prev {
+        border: 1px solid #fff;
+        width: 45px;
+        height: 45px;
+        top: 48%;
+        left: 50px;
+        border-radius: 50px;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="demo" class="carousel slide main-slider" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="3"
+        ></button>
+      </div>
+
+      <!--------------Images-------------->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid" alt="" height="100px" width="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://s46675.pcdn.co/wp-content/uploads/2018/10/prettyflowers18.jpg" alt=""  height="100px" width="100px">
+        </div>
+
+        <div class="carousel-item">
+        <img src="https://s46675.pcdn.co/wp-content/uploads/2018/10/prettyflowers16.jpg" alt=""  height="100px" width="100px">
+        </div>
+
+        <div class="carousel-item">
+         <img src="https://t4.ftcdn.net/jpg/04/76/59/17/360_F_476591720_g5F49iOfMaxXnqdGuqdhfwuSVw8B6Oqn.jpg" alt=""  height="100px" width="100px">
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="carousel-control-prev"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-"></span>
+      </button>
+
+      <button
+        type="button"
+        class="carousel-control-next"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-"></span>
+      </button>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of Auto Type</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .text{
+            -border: 1px solid red;
+            display: inline-block;
+            color: red;
+            background-color: aliceblue;
+        }
+
+        .text h4{
+            white-space: nowrap;
+            overflow: hidden;
+            animation-name: typing;
+            animation-duration: 4s;
+            animation-timing-function: steps(30,end);
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+            to{width: 100%;}
+        }
+    </style>
+</head>
+<body class="m-5">
+
+ <h2>Auto type</h2>
+    <div class="text">
+        <h4>good morning</h4>
+    </div>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
