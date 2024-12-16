@@ -1,6 +1,5 @@
 .navbar{
     -border: 1px solid red;
-    -background-color: #D4EDE7;
 }
 
 .zero {
@@ -465,4 +464,168 @@
   height: 45px;
   width: 270px;
   margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+#btn-outline-dark{
+   -border: 1px solid red;
+   height: 40px;
+   margin-top: 30px;
+   font-size: 15px;
+   border: none;
+   color: white;
+   background-color: black;
+   width: 50%;
+   font-family: 'Oswald', sans-serif;
+}
+#btn-outline-dark:hover{
+   background-color: #C19A83;
+   font-family: 'Oswald', sans-serif;
+}
+.footer{
+  height: 100px;
+  width: 99%;
+  background-color: #F1F2F2;
+}
+.fa-facebook-f:hover{
+  color: #8F6453;
+}
+.fa_1:hover{
+  color: #8F6453;
+}
+.fa-youtube:hover{
+  color: #8F6453;
+}
+.fa-instagram:hover{
+  color: #8F6453;
+}
+.fa-twitter:hover{
+  color: #8F6453;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-main_one{
+  -border: 1px solid green;
+}
+.main{
+  -border: 1px solid red;
+}
+
+.container-fluid_one{
+  -border: 1px solid black;
+  margin-top: 300px;
+  height: 650px;
+  display: flex;
+}
+.rounded_r{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_rn{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_ml{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+
+}
+.rounded_mn {
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_pq {
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_jk{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_lm{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_bc{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+.rounded_cd{
+  -border: 1px solid red;
+  width: 20%;
+  justify-content: space-between;
+  left: 160px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-main{
+  border: 1px solid red;
+  -height: 700px;
+     /* background-image: url(/image/hero-01.img);
+    background-size: cover;
+    background-attachment: fixed; */
 }
