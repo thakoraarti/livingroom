@@ -102,12 +102,11 @@
   
   
   .text1{
-    -border: 1px solid gray;
+    -border: 1px solid red;
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     color: black;
     margin-left: 10px;
-
     }
 
 .text2{
@@ -155,6 +154,7 @@
 
 
 .main-text{
+  -border: 1px solid red;
   background-color: #fff;
   position: absolute;
   left:20px;right: 20px;bottom: 20px;
@@ -358,7 +358,7 @@
   
 }
 
-.fa-star{
+.star_1{
   -border: 1px solid red;
   margin-top: 130px;
   color: #F0AD4E;
@@ -366,6 +366,7 @@
 .f_1{
   -border: 1px solid red;
   margin-top: 50px;
+  color: #F0AD4E;
 }
 .Oliver_1{
   -border: 1px solid red;
@@ -698,4 +699,1039 @@
   -border: 1px solid red;
   margin-top: -300px;
   margin-left: -85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn_9{
+  -border: 1px solid red;
+  width: 76px;
+  height: 43px;
+  border: none;
+  font-size: 13px;
+  background-color: #000;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.btn_9:hover{
+  background-color: #C19A83;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.woocommerce-button :hover{
+  background-color: #C19A83;
+}
+
+.bg_img{
+  border: 1px solid red;
+  background-attachment: fixed;
+}
+
+.line_line{
+  border: 1px solid white;
+  width: 5%;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 630px;
+  height: 0px;
+}
+.elementor-heading-title{
+  -border: 1px solid red;
+  margin-top: 300px;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  margin-left: 530px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainm {
+  -border: 2px solid rgb(236, 6, 6);
+  height: 500px;
+  width: 1346px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(/image/bg-03.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+}
+
+.btn_b{
+  -border: 1px solid red;
+  border: none;
+      width: 130px;
+      height: 45px;
+      margin-top: 380px;
+      margin-left: 600px;
+      color: white;
+      position: relative; background-color: #C19A83;
+}
+.btn_b:hover{
+ background-color: white;
+ color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_M{
+  -border: 1px solid yellow;
+  height: 670px;
+  display: flex;
+}
+.main_left{
+  -border: 1px solid green;
+  width: 45%;
+  height: 650px;
+  margin-left: 20px;
+  background-image: url(https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/product-01-c.jpg);
+  background-size: cover;
+}
+
+.main_right{
+  -border: 1px solid green;
+  width: 50%;
+  -background-attachment: fixed;
+  margin-left: 30px;
+}
+.N1{
+  -border: 1px solid red;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.N2{
+  -border: 1PX solid RED;
+  margin-top:10PX;
+  color: #7a7a7a;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.N3{
+  -border: 1px solid red;
+  font-size: 22px;
+}
+.A_f{
+  -border: 1px solid red;
+  color: #7a7a7a;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  
+}
+.N4{
+  -border: 1px solid red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  margin-left: 3px;
+  font-weight: bold;
+  color: #C8A68E;
+
+}
+.N5{
+  -border: 1px solid red;
+  color: #7a7a7a;
+  margin-left: 3px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.N6{
+  -border: 1px solid red;
+  color: #7a7a7a;
+  margin-left: 3px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.rou_1{
+  -border: 1px solid green;
+  display: flex;
+  margin-left: -10px;
+}
+.rounded_11{
+  -border: 1px solid red;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.rounded_12{
+  -border: 1px solid red;
+  height: 20px;
+  width: 20px;
+  background-color: #8F6453;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+.rounded_13{
+  -border: 1px solid red;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  background-color: #CDB198;
+  border-radius: 50px;
+}
+
+.main_R{
+  -border: 1px solid red;
+  height: 100px;
+}
+
+.L_line1{
+  border: 1px solid silver;
+}
+.L_line2{
+  border: 1px solid silver;
+}
+.main_M1{
+  -border: 1PX solid RED;
+  height: 400PX;
+  display: flex;
+}
+
+.single_add_to_cart_button{
+  -border: 1px solid red;
+  background-color: silver;
+  border-radius: 0px;
+  border: none;
+  height: 40px; width: 10%;
+   color: white;  margin-left: 130px;
+    position: absolute;margin-top: -40px;
+      font-family: 'Oswald', sans-serif; 
+      font-size: 18px;
+}
+.single_add_to_cart_button:hover{
+  background-color:#D0B097;
+}
+
+
+.M1{
+  -border: 1px solid red;
+  font-style: 12px;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.visa_one{
+  border: 1px solid purple;
+  height: 100px;
+}
+
+legend {
+  text-align: center;
+  font-family: 'Oswald', sans-serif; 
+  color: #353535;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid silver;
+  width: 100%;
+  margin: 100px;
+  height: 80px;
+  margin-left: -0px;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+
+.visa_main{
+  border: 1px solid red;
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.M2{
+  -border: 1px solid red;
+  margin-left: 9px;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif; 
+}
+.B_1{
+  -border: 1px solid green;
+  color: #8F6453;
+}
+.main {
+  -border: 1px solid red;
+  display: flex;
+  width: fit-content;
+}
+#btnAdd,
+#btnMinus {
+  border: 1px solid silver;
+  height: 36PX;
+  width: 36PX;
+background-color: white;
+}
+#btnAdd:hover{
+  background-color: #D3B39A;
+}
+#btnMinus:hover{
+  background-color: #D3B39A;
+}
+
+#size {
+  width: 15%;
+  box-sizing: border-box;
+  padding-left: 13px;
+}
+
+.M_ONE_1{
+  -border: 1PX solid RED;
+  height: 350PX;
+  width: 22%;
+  margin-left: 20px;
+  background-image: url(https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/product-01-b.jpg);
+  background-size: cover;
+}
+
+.M_ONE_2{
+  -border: 1PX solid RED;
+  height: 350PX;
+  width: 22%;
+  margin-left: 20px;
+  background-image: url(https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/product-01-a.jpg);
+  background-size: cover;
+}
+
+
+.main_M2{
+  -border: 1px solid green;
+  height: 140px;
+}
+
+.card{
+  -border: 1px solid red;
+}
+#c1{
+  border: 1px solid rgb(0, 255, 76);
+  height: 1700px;
+  
+}
+.A_1{
+  -border: 1px solid red;
+  width: fit-content;
+  font-weight: bold;
+  margin-left: 20px;
+  font-family: 'Oswald', sans-serif; 
+}
+.h1{
+  border: 1px solid  #af6a53;
+  width: 5%;
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif; 
+}
+h5{
+  -border: 1px solid green;
+  font-size: 15px;
+  width: fit-content;
+  margin-left: 50%;
+  color: #050505;
+  margin-top: -8%;
+  font-family: 'Oswald', sans-serif; 
+}
+p{
+  -border: 1px solid green;
+  font-size: 15px;
+  width: fit-content;
+  color: #353535;
+  margin-top: 10px;
+  margin-left: 50%;
+  font-family: 'Oswald', sans-serif; 
+ 
+}
+.main_box{
+  border: 1px solid red;
+  width: 50%;
+  margin-top:80px;
+  height: 370px;
+  background-color: #F5F6F6;
+}
+
+.Ft_one{
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  margin-left: 18px;
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif; 
+}
+.Ft_two{
+  border: 1px solid red;
+  margin-left: 20px;
+  font-size: 15px;
+  color: rgba(36, 29, 29, 0.699);
+  font-family: 'Oswald', sans-serif; 
+}
+.elementor-icon-list-icon{
+  margin-left: 20px;
+  color: #C19A83; 
+  margin-top: 10px; 
+  position: absolute;
+}
+.elementor-icon-list-icon:hover{
+   color: black;
+}
+
+.Ft_three{
+  -border: 1px solid red;
+  font-family: 'Oswald', sans-serif; 
+  font-size: 16px;
+}
+.main_box_img1{
+  border: 1px solid red;
+  margin-left: 600px;
+  margin-top: -400px;
+  width: 50%;
+}
+
+.b_box1{
+  border: 1px solid rgb(51, 255, 0);
+  background-size: contain;
+  height: 600px;
+  margin-top: -30px;
+  width: 100%;
+  background-image: url(https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/bg-04.jpg);
+}
+
+.main_box_img2{
+  -border: 1px solid red;
+  width: 46%;
+  
+}
+
+.b_box2{
+  background-image: url(https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/bg-02.jpg);
+ background-size: cover;
+ height: 500px;
+ background-position: center;
+  
+}
+
+
+.main_box_img3{
+  border: 1px solid red;
+  height: 500px;
+  width: 50%;
+  margin-left: 600px;
+  margin-top: -500px;
+}
+.C_1{
+  border: 1px solid red;
+  width: fit-content;
+  margin-left: 50px;
+  margin-top: 120px;
+  font-family: 'Oswald', sans-serif; 
+  font-weight: bold;
+}
+
+.C_2{
+  border: 1px solid #C19A83;
+  width: 9%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+
+.elementor-icon-list-icon1{
+  margin-left: 50px;
+  color: #C19A83; 
+  margin-top: 12px; 
+  position: absolute;
+}
+.elementor-icon-list-icon1:hover{
+   color: black;
+}
+
+.note1{
+  -border: 1px solid red;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.note2{
+  -border: 1px solid green;
+  color: black;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif; 
+  font-size: 15px;
+}
+
+.note3{
+  -border: 1px solid red;
+  color: #C7A58C;
+  height: 100px;
+  width: fit-content;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.main_M_1{
+  border: 1px solid palevioletred;
+  height: 400px;
+  width: 46%;
+}
+.W_1{
+  border: 1px solid red;
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif; 
+  font-weight: bold;
+  width: fit-content;
+  font-size: 22px;
+}
+
+.W_2{
+  -border: 1px solid red;
+  color: black;
+  margin-left: 130px;
+  font-family: 'Oswald', sans-serif; 
+  margin-top: -40PX;
+}
+.W_3{
+  -border: 1px solid red;
+   color: #636363;
+   margin-top: 20px;
+  font-family: 'Oswald', sans-serif; 
+  margin-left: 130px;
+  width: 79%;
+}
+
+.main_M_2{
+  border: 1px solid rgb(223, 7, 79);
+  height: 400px;
+  float: right;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -400px;
+  width: 49%;
+}
+
+
+.elementor-icon-list-icon_1{
+  margin-left: 60px;
+  color: #C19A83; 
+  margin-top:20px; 
+  position: absolute;
+}
+.elementor-icon-list-icon_1:hover{
+   color: black;
+}
+
+.W_5{
+  border: 1px solid #C8A793;
+  height: 0;
+  width: 220%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+
+
+.elementor-icon-list-icon_2{
+  margin-left: 60px;
+  color: #C19A83; 
+  margin-top:60px; 
+  position: absolute;
+}
+.elementor-icon-list-icon_2:hover{
+   color: black;
+}
+
+.W_7{
+  border: 1px solid #C8A793;
+  height: 0;
+  width: 195%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+
+
+.elementor-icon-list-icon_3{
+  margin-left: 60px;
+  color: #C19A83; 
+  margin-top:100px; 
+  position: absolute;
+}
+.elementor-icon-list-icon_3:hover{
+   color: black;
+}
+
+.W_9{
+  border: 1px solid #C8A793;
+  height: 0;
+  width: 185%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+
+
+
+.elementor-icon-list-icon_4{
+  margin-left: 60px;
+  color: #C19A83; 
+  margin-top:140px; 
+  position: absolute;
+}
+.elementor-icon-list-icon_4:hover{
+   color: black;
+}
+
+.W_11{
+  border: 1px solid #C8A793;
+  height: 0;
+  width: 210%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+
+
+.elementor-icon-list-icon_5{
+  margin-left: 60px;
+  color: #C19A83; 
+  margin-top:180px; 
+  position: absolute;
+}
+.elementor-icon-list-icon_5:hover{
+   color: black;
+}
+
+.W_13{
+  border: 1px solid #C8A793;
+  height: 0;
+  width: 195%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+
+
+.elementor-icon-list-icon_6{
+  margin-left: 60px;
+  color: #C19A83; 
+  margin-top:220px; 
+  position: absolute;
+}
+.elementor-icon-list-icon_6:hover{
+   color: black;
+}
+
+.W_15{
+  border: 1px solid #C8A793;
+  height: 0;
+  width: 280%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+#c2{
+  -border: 1px solid red;
+  height: 110px;
+}
+
+.C_l_1{
+  border: 1px solid silver;
+  height: 35px;
+  width: 10%;
+  color: black;
+  font-family: 'Oswald', sans-serif; 
+  margin-top: 20px;
+}
+
+
+.C_l_2{
+  border: 1px solid silver;
+  height: 35px;
+  width: 90%;
+  margin-top: -35px;
+  font-family: 'Oswald', sans-serif; 
+  margin-left: 130px;
+}
+
+#c3{
+  border: 1px solid green;
+  height: 600px;
+}
+.T_P_1{
+  border: 1PX solid RED;
+  margin-left: 0;
+  font-family: 'Oswald', sans-serif; 
+  font-size: 16px;
+  color: #5E5E5E;
+}
+.div_main_1{
+  border: 1px solid silver;
+  height: 500px;
+}
+
+.B_D_1{
+ border: 1px solid red;
+ font-size: 20px;
+ font-family: 'Oswald', sans-serif; 
+ color: #636363;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.B_D_2{
+  border: 1px solid rgb(102, 255, 0);
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif; 
+  color: #636363;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ 
+.B_D_3{
+  border: 1px solid red;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif; 
+  color: #636363;
+  width: fit-content;
+  margin-left: 20px;
+  margin-top: 10px;
+ }
+
+ .B_D_4{
+  border: 1px solid red;
+  margin-left: 120px;
+  margin-top: -27px;
+  width: fit-content;
+ }
+ 
+
+ .star__1{
+  border: 1px solid red;
+  -background-color: #e27b14;
+ }
+
+
+
+
+
+
+.B_D_5{
+  -border: 1px solid rgb(0, 255, 13);
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif; 
+  color: #636363;
+  width: fit-content;
+  margin-left: 20px;
+  margin-top: 10px;
+ }
+
+.B_D_6{
+  border: 1px solid  silver;
+  height: 100px;
+  width: 98%;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.main_name_one{
+  -border: 1px solid rgb(72, 255, 0);
+  margin-top: -100px;
+
+}
+.name_1{
+  -border: 1px solid red;
+  margin-left: 20px;
+ font-size: 16px;
+ font-family: 'Oswald', sans-serif; 
+}
+
+.B_D_7{
+border: 1px solid silver;
+  margin-left: 20px;
+  border-radius: 5px;
+  height: 40px;
+  width: 48%;
+}
+
+.name_2{
+  -border: 1px solid red;
+  margin-left: 50%;
+  margin-top: -65px;
+ font-size: 16px;
+ font-family: 'Oswald', sans-serif; 
+}
+
+.B_D_8{
+ border: 1px solid silver;
+ border-radius: 5px;
+  height: 40px;
+  margin-left: 50%;
+  width: 49%;
+}
+
+.B_D_9{
+  border: 1px solid red;
+  margin-top: 20px;
+  font-size: 16px;
+  width: fit-content;
+  margin-left: 20px;
+  font-family: 'Oswald', sans-serif; 
+}
+.B_D_10{
+ border: none;
+ height: 40px;
+ width: 100px;
+ font-size: 16px;
+ color: white;
+ background-color: #050505;
+ font-family: 'Oswald', sans-serif; 
+ margin-left: 20px;
+ justify-content: center;
+ margin-top: 20px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+}
+
+.B_D_10:hover{
+  background-color: #aa6246;
+}
+
+
+
+
+
+
+.R_1{
+  border: 1px solid  silver;
+  height: 45px;
+  width: 98%;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif; 
+}
+.R_11{
+  -border: 1px solid green;
+  margin-left: 87%;
+  position: absolute;
+  font-size: 35PX;
+  margin-top: -12px;
+}
+
+.R_2{
+  border: 1px solid  silver;
+  height: 45px;
+  width: 98%;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.R_12{
+  -border: 1px solid green;
+  margin-left: 79.5%;
+  position: absolute;
+  font-size: 35PX;
+  margin-top: -12px;
+}
+
+.R_3{
+  border: 1px solid  silver;
+  height: 45px;
+  width: 98%;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif; 
+}
+.R_13{
+  -border: 1px solid green;
+  margin-left: 87%;
+  position: absolute;
+  font-size: 35PX;
+  margin-top: -12px;
+}
+
+.main_M3{
+  -border: 1px solid red;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  
+}
+.R_4{
+  margin-left: 15px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif; 
+  font-weight: bolder;
+  color: black;
+  margin-top: 10px;
+  
+}
+.img_1_main{
+  -border: 1px solid red;
+  height: 450px;
+  margin-left: 20px;  
+}
+
+.text_img{
+  -border: 1px solid red;
+  height: 80px;
+  width: 96%;
+  background-color: #F1F3F2;
+}
+.t_1{
+  -border: 1px solid red;
+  font-size: 20px;
+  display: flex;
+  font-family: 'Oswald', sans-serif;  
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.t_2{
+  -border: 1px solid red;
+  font-size: 15px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;  
+  color: #605E5F;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_1{
+  -border: 1px solid green;
+  height: 100px;
+  margin-top: 10px;
+}
+.text_1{
+  -border: 1px solid red;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;  
+  font-weight: bold;
+  color: #3a3838;
+}
+.ellips{
+  -border: 1px solid green;
+ background-color: #353331;
+ color: white;
+ border-radius: 50px;
+ position: absolute;
+ height: 17px;
+ display: flex;
+ justify-content: center;
+ font-size: 9px;
+ align-items: center;
+ width: 17px;
+ margin-top: 10px;
+}
+.text_2{
+  -border: 1px solid green;
+  width: fit-content;
+  margin-left: 25px;
+  color: #353331;
+  font-family: 'Oswald', sans-serif;  
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.text_3{
+  -border: 1px solid green;
+  width: fit-content;
+  margin-left: 25px;
+  color: #353331;
+  font-family: 'Oswald', sans-serif;  
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.text_4{
+  -border: 1px solid green;
+  width: fit-content;
+  margin-left: 25px;
+  color: #353331;
+  font-family: 'Oswald', sans-serif;  
+  font-size: 15px;
+  margin-top: 7px;
 }

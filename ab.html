@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+        -border: 1px solid red;
+        display: flex;
+        width: fit-content;
+      }
+      #btnAdd,
+      #btnMinus {
+        border: 1px solid silver;
+        padding: 6px 11px;
+ background-color: white;
+      }
+      #btnAdd:hover{
+        background-color: #D3B39A;
+      }
+      #btnMinus:hover{
+        background-color: #D3B39A;
+      }
+
+      #size {
+        width: 15%;
+        box-sizing: border-box;
+        padding-left: 13px;
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <button id="btnAdd">+</button>
+        <input type="text" id="size" value="1" />
+        <button id="btnMinus">-</button>
+      </div>
+
+      
+
+      <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+
+
+      <script>
+        $("#btn").click(function () {
+          var myText = $("#data").val();
+          $("#content").append(myText);
+  
+          var myClr = $("#clr").val();
+          $("#content").css("color", myClr);
+  
+          var mySelect = $("#select").val();
+          $("#content").css("font-size", mySelect);
+        });
+  
+        $("#btnAdd").click(function () {
+          var size = $("#size").val();
+          var s = parseInt(size) + 1;
+          $("#size").val(s);
+          $("#content").css("font-size", s + "px");
+        });
+  
+        $("#btnMinus").click(function () {
+          var size = $("#size").val();
+          var s = parseInt(size) - 1;
+          $("#size").val(s);
+          $("#content").css("font-size", s + "px");
+        });
+      </script>
+
+
+</body>
+</html>
